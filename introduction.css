@@ -1,9 +1,31 @@
+body{
+    background-image:url("C:/Users/tanaka kounosuke/Desktop/introduction/2017-03-17 22.38.12.jpg");
+    background-size:cover;
+    background-position:center;
+
+}
+.wrapper{
+    height: 80vh;
+    width:60vw;
+    margin:0 auto;
+}
 h1{
-    background-color: #bbedce;
-    text-align:center;
+ margin: 2em auto;
+ padding: 1em;
+ width: 90%;
+ border: 5px double #8491c3; /*太さ・線種・色*/
+ color: #333; /* 文字色 */
+ background-color: #CCFF66; /* 背景色 */
+ border-radius: 1px; /*角の丸み*/
+
 }
 
 ul{
      background: #f3fbff;
     border: 2px skyblue dashed;
+    display:inline-block;
+}
+li{
+    line-height:normal;
+    font-size:5vh;
 }
